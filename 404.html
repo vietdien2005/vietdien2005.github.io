@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en-US" class="no-js one-page-layout" data-classic-layout="false" data-mobile-classic-layout="false" data-prev-animation="16" data-next-animation="15" data-random-animation="false">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dam Viet | Porfolio</title>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Montserrat:400,700&#038;subset=latin' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic&#038;subset=latin' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/css/bootstrap.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/css/pe-icon-7-stroke.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/css/fontello.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/css/nprogress.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/css/magnific-popup.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/css/uniform.default.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/css/animations.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/css/main.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/css/768.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/css/wp-fix.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='assets/css//style.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <script type='text/javascript' src='assets/js/jquery.js'></script>
+    <script type='text/javascript' src='assets/js/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='assets/js/modernizr.min.js'></script>
+    <meta name="generator" content="" />
+    <link rel="canonical" href="http://vietdien2005.github.io" />
+    <link rel='shortlink' href='http://vietdien2005.github.io' />
+    <script>
+    function ColorLuminance(hex, lum) {
+        hex = String(hex).replace(/[^0-9a-f]/gi, '');
+        if (hex.length < 6) {
+            hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2] + hex[2];
+        }
+        lum = lum || 0;
+        var rgb = "#",
+            c, i;
+        for (i = 0; i < 3; i++) {
+            c = parseInt(hex.substr(i * 2, 2), 16);
+            c = Math.round(Math.min(Math.max(0, c + (c * lum)), 255)).toString(16);
+            rgb += ("00" + c).substr(c.length);
+        }
+        return rgb;
+    }
+    jQuery(document).ready(function($) {
+        color = ColorLuminance('#8acb82', -0.15);
+        var styleCss = '<style type="text/css">' +
+            '.section-title h2:after, .section-title h2:before { background-color: ' + color + '; }' +
+            '</style>';
+        $('body').append(styleCss);
+    });
+    jQuery(document).ready(function($) {
+        $('.one-page-layout .site-main > section:nth-of-type(1)').toggleClass('light-text');
+    });
+    jQuery(document).ready(function($) {
+        $('.one-page-layout .site-main > section:nth-of-type(6)').toggleClass('light-text');
+    });
+    </script>
+    <!--[if lt IE 9]>
+		<script src="assets/js/ie.js"></script>
+	<![endif]-->
+    <link rel="icon" href="assets/images/avatar-32x32.jpg" sizes="32x32" />
+    <link rel="icon" href="assets/images/avatar-190x190.jpg" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="assets/images/avatar-180x180.jpg" />
+    <meta name="msapplication-TileImage" content="assets/images/avatar-270x270.jpg" />
+</head>
+
+<body class="error404">
+    <div id="page" class="hfeed site">
+        <header id="masthead" class="header" role="banner">
+            <a class="menu-toggle toggle-link"></a>
+            <h1 class="site-title mobile-title">DAM VIET</h1>
+            <div class="header-wrap">
+                <img alt="Empathy" src="assets/images/avatar-150x150.jpg">
+                <h1 class="site-title">DAM VIET</h1>
+                <nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+                    <div class="nav-menu">
+                        <ul class="menu-auto">
+                        </ul>
+                        <script>
+                        jQuery(document).ready(function($) {
+                            var menu_html = "";
+                            $('#main').find('section').each(function() {
+                                var id = $(this).attr('id');
+                                var icon = $(this).find('.page-title  i').attr('class');
+                                var title = $(this).find('.page-title').text();
+                                var menu_item = '<li><a href="#/' + id + '"><i class="' + icon + '"></i>' + title + '</a></li>';
+                                menu_html += menu_item;
+                                $('.menu-auto').html(menu_html);
+                            });
+                        });
+                        </script>
+                    </div>
+                </nav>
+                <div class="header-search">
+                    <form role="search" id="search-form" method="get" action="">
+                        <input type="text" id="search" name="s" required="required" placeholder="enter word">
+                        <input type="submit" id="search-submit" title="Search" value="&#8594;">
+                    </form>
+                </div>
+                <div class="header-bottom">
+                    <div class="textwidget">
+                        <ul class="social">
+                            <!-- <li>
+                                <a target="_blank" href="https://www.facebook.com/Derrick.Dam">
+                                	<i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li> -->
+                            <li>
+                                <a target="_blank" href="https://github.com/vietdien2005">
+                                    <i class="fa fa-github-alt" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copy-text">
+                        <div id="text-2" class="widget_text">
+                            <div class="textwidget">
+                                <p>© 2015 DamViet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="main" class="site-main">
+            <div class="page-single page-layout">
+                <div class="layout-fixed">
+                    <article class="">
+                        <header class="entry-header">
+                            <h1 class="entry-title">you are lost!</h1>
+                        </header>
+                        <div class="entry-content">
+                            <div class="http-alert">
+                                <h1>
+							<i class="pe-7s-way"></i>
+						</h1>
+                                <p>The page you are looking for was not found!</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <footer class="site-footer" role="contentinfo">
+                    <div class="layout-medium">
+                        <div class="footer-sidebar widget-area" role="complementary">
+                            <aside id="recent-posts-2" class="widget widget_recent_entries">
+                                <h3 class="widget-title">Recent Posts</h3>
+                                <ul>
+                                    <li>
+                                        <a href="http://themes.pixelwars.org/empathy/love-is-a-strong-word/">Love is a Strong Word</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://themes.pixelwars.org/empathy/there-is-always-light-at-the-end-of-the-tunnel/">There is Always Light at The End of The Tunnel</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://themes.pixelwars.org/empathy/get-your-bike-ready-for-the-summer/">Get Your Bike Ready For The Summer</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://themes.pixelwars.org/empathy/free-your-mind-for-a-better-life/">Free Your Mind For A Better Life</a>
+                                    </li>
+                                </ul>
+                            </aside>
+                            <aside id="pixelwars_social_feed_widget-2" class="widget widget_pixelwars_social_feed_widget">
+                                <h3 class="widget-title">Instagram</h3>
+                                <div class="social-feed" data-social-network="instagram" data-username="ahmetsali" data-limit="6"></div>
+                            </aside>
+                            <aside id="categories-2" class="widget widget_categories">
+                                <h3 class="widget-title">Categories</h3>
+                                <ul>
+                                    <li class="cat-item cat-item-85"><a href="http://themes.pixelwars.org/empathy/category/adventure/">Adventure</a>
+                                    </li>
+                                    <li class="cat-item cat-item-100"><a href="http://themes.pixelwars.org/empathy/category/sport/">Sport</a>
+                                    </li>
+                                    <li class="cat-item cat-item-96"><a href="http://themes.pixelwars.org/empathy/category/think/">Think</a>
+                                    </li>
+                                    <li class="cat-item cat-item-81"><a href="http://themes.pixelwars.org/empathy/category/travel/">Travel</a>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript' src='assets/js/jquery.address-1.5.min.js'></script>
+    <script type='text/javascript' src='assets/js/smoothscroll.js'></script>
+    <script type='text/javascript' src='assets/js/nprogress.js'></script>
+    <script type='text/javascript' src='assets/js/fastclick.js'></script>
+    <script type='text/javascript' src='assets/js/typist.js'></script>
+    <script type='text/javascript' src='assets/js/imagesloaded.pkgd.min.js'></script>
+    <script type='text/javascript' src='assets/js/jquery.isotope.min.js'></script>
+    <script type='text/javascript' src='assets/js/jquery.fitvids.js'></script>
+    <script type='text/javascript' src='assets/js/jquery.validate.min.js'></script>
+    <script type='text/javascript' src='assets/js/jquery.uniform.min.js'></script>
+    <script type='text/javascript' src='assets/js/jquery.magnific-popup.min.js'></script>
+    <script type='text/javascript' src='assets/js/socialstream.jquery.js'></script>
+    <script type='text/javascript' src='assets/js/main.js'></script>
+    <script type='text/javascript' src='assets/js/wp-fix.js'></script>
+    <script type='text/javascript' src='404.html'></script>
+</body>
+
+</html>
